@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#060606">
+  <title>Edge — Today's Picks</title>
+  <meta name="description" content="Daily +EV sports betting picks. For entertainment purposes only.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <nav>
+    <a href="#" class="brand">
+      <svg class="brand-icon" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <polygon points="14,2 26,24 2,24" fill="none" stroke="#faf8f5" stroke-width="1.2"/>
+        <polygon points="14,8 21,22 7,22" fill="none" stroke="#666666" stroke-width="0.8"/>
+        <line x1="14" y1="2" x2="14" y2="24" stroke="#444444" stroke-width="0.6"/>
+        <circle cx="14" cy="24" r="1.5" fill="#86efac"/>
+      </svg>
+      <div class="brand-text">
+        <span class="brand-wordmark">Edge</span>
+        <span class="brand-sub">Daily Intelligence</span>
+      </div>
+    </a>
+    <div class="nav-right">
+      <span class="nav-date" id="nav-date"></span>
+      <div class="live-indicator">
+        <span class="live-dot"></span>
+        <span>Live</span>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container">
+    <header class="page-header">
+      <h1 class="page-title">Today's <em>Picks</em></h1>
+      <div class="page-meta-block">
+        <div class="page-date" id="page-date"></div>
+        <div class="page-updated" id="page-updated"></div>
+      </div>
+    </header>
+
+    <div class="section-label">
+      <span id="section-label-text">Top 6 +EV picks</span>
+    </div>
+
+    <section id="picks" class="picks" aria-label="Today's picks"></section>
+
+    <section id="empty-state" class="empty-state hidden">
+      <h2>No picks today.</h2>
+      <p>Check back tomorrow.</p>
+    </section>
+
+    <footer class="page-footer">
+      <p class="disclaimer">
+        <strong>For entertainment purposes only.</strong><br>
+        Picks are model projections, not financial or gambling advice. You must be 21+ and in a jurisdiction where sports betting is legal. If you or someone you know has a gambling problem, call <a href="tel:18004262537">1-800-GAMBLER</a>.
+      </p>
+    </footer>
+
+  <script type="application/json" id="picks-fallback">
+{
+  "date": "2026-04-28",
+  "generated_at": "2026-04-28T08:02:00-04:00",
+  "summary": "Top 6 +EV picks · MLB & NBA Player Props",
+  "picks": [
+    {
+      "id": "2026-04-28-osuna-hits-over-0.5",
+      "rank": 1,
+      "sport": "MLB",
+      "matchup": "NYY @ TEX",
+      "game_time": "2026-04-28T20:05:00-04:00",
+      "player": "Alejandro Osuna",
+      "team_abbr": "TEX",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/tex.png",
+      "market": "Hits",
+      "line": "Over 0.5",
+      "odds": "+112",
+      "projection": "1.0 hits (median)",
+      "win_prob": 0.739,
+      "ev_pct": 0.566,
+      "book": "Sportsbook Rhode Island",
+      "book_is_ri": true,
+      "reasoning": "The model projects Osuna for a median of 1 hit — meaning the model expects him to record a hit more often than not — yet Sportsbook RI is pricing this over at +112, implying only a ~47% chance. That's a massive 27-point edge in win probability that no other major book is offering anywhere near as favorably.",
+      "result": null
+    },
+    {
+      "id": "2026-04-28-cronenworth-hits-over-0.5",
+      "rank": 2,
+      "sport": "MLB",
+      "matchup": "CHC @ SD",
+      "game_time": "2026-04-28T21:40:00-04:00",
+      "player": "Jake Cronenworth",
+      "team_abbr": "SD",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/mlb/500/sd.png",
+      "market": "Hits",
+      "line": "Over 0.5",
+      "odds": "-118",
+      "projection": "1.0 hits (median)",
+      "win_prob": 0.739,
+      "ev_pct": 0.365,
+      "book": "Sportsbook Rhode Island",
+      "book_is_ri": true,
+      "reasoning": "Cronenworth's model projection puts his median outcome at 1 hit, giving him a 73.9% probability of going over 0.5 — far above the ~54% implied by -118 at Sportsbook RI. The Padres IF is at home vs a Cubs lineup that ranks in the middle of the pack for strikeout rate, a favorable setup for contact hitters.",
+      "result": null
+    },
+    {
+      "id": "2026-04-28-jjohnson-3pm-over-1.5",
+      "rank": 3,
+      "sport": "NBA",
+      "matchup": "ATL @ NY",
+      "game_time": "2026-04-28T20:00:00-04:00",
+      "player": "Jalen Johnson",
+      "team_abbr": "ATL",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+      "market": "3-Pointers Made",
+      "line": "Over 1.5",
+      "odds": "+100",
+      "projection": "2.0 threes (median)",
+      "win_prob": 0.665,
+      "ev_pct": 0.330,
+      "book": "BetMGM",
+      "book_is_ri": false,
+      "reasoning": "The model's median projection is exactly 2 three-pointers for Johnson, meaning he clears 1.5 roughly two-thirds of the time — yet BetMGM is offering this over at even money (+100), implying just a 50% chance. That's a 16-point win probability gap, making this one of the cleanest mispriced props on the board today.",
+      "result": null
+    },
+    {
+      "id": "2026-04-28-fox-3pm-over-1.5",
+      "rank": 4,
+      "sport": "NBA",
+      "matchup": "POR @ SA",
+      "game_time": "2026-04-28T21:30:00-04:00",
+      "player": "De'Aaron Fox",
+      "team_abbr": "SAS",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nba/500/sa.png",
+      "market": "3-Pointers Made",
+      "line": "Over 1.5",
+      "odds": "-105",
+      "projection": "2.0 threes (median)",
+      "win_prob": 0.665,
+      "ev_pct": 0.299,
+      "book": "DraftKings",
+      "book_is_ri": false,
+      "reasoning": "Fox's model median lands at 2 threes — clearing the 1.5 line with 66.5% probability — while DraftKings is offering it at -105, implying only about 51%. With Portland allowing one of the league's highest 3PA rates this season, Fox is in prime position to get his shots up early and often.",
+      "result": null
+    },
+    {
+      "id": "2026-04-28-edgecombe-3pm-over-1.5",
+      "rank": 5,
+      "sport": "NBA",
+      "matchup": "PHI @ BOS",
+      "game_time": "2026-04-28T19:00:00-04:00",
+      "player": "VJ Edgecombe",
+      "team_abbr": "PHI",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nba/500/phi.png",
+      "market": "3-Pointers Made",
+      "line": "Over 1.5",
+      "odds": "-126",
+      "projection": "2.0 threes (median)",
+      "win_prob": 0.626,
+      "ev_pct": 0.122,
+      "book": "Sportsbook Rhode Island",
+      "book_is_ri": true,
+      "reasoning": "The model puts Edgecombe's median at 2 threes and his ceiling at 4, suggesting the Sixers' young guard is taking a high volume of attempts in playoff-caliber spots. At -126 from RI (implying ~56%), the model's 62.6% estimate provides a clear 6.6-point edge worth taking.",
+      "result": null
+    },
+    {
+      "id": "2026-04-28-tatum-3pm-over-2.5",
+      "rank": 6,
+      "sport": "NBA",
+      "matchup": "PHI @ BOS",
+      "game_time": "2026-04-28T19:00:00-04:00",
+      "player": "Jayson Tatum",
+      "team_abbr": "BOS",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nba/500/bos.png",
+      "market": "3-Pointers Made",
+      "line": "Over 2.5",
+      "odds": "-136",
+      "projection": "3.0 threes (median)",
+      "win_prob": 0.626,
+      "ev_pct": 0.085,
+      "book": "FanDuel",
+      "book_is_ri": false,
+      "reasoning": "Tatum's model median is exactly 3 three-pointers, sitting directly above the 2.5 line with a 62.6% projected hit rate. FanDuel offers the best available price at -136, implying 57.6% — a 5-point edge. At home vs a depleted Sixers defense in a likely blowout scenario, Tatum should get clean looks to pad his three-point total.",
+      "result": null
+    }
+  ]
+}
+  </script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
