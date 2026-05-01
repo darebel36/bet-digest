@@ -30,7 +30,7 @@
       "book": "Polymarket",
       "book_is_ri": false,
       "market_type": "player_prop",
-      "reasoning": "Model median 11.83 vs Over 11.5; estimated hit rate 51.9%.",
+      "reasoning": "Why this made the card: Deandre Ayton points Over 11.5 is a player prop priced at Polymarket +213. That price is break-even at 31.9%, while the model has it at 51.9% — a +20.0 percentage-point cushion and +62.5% expected value. Projection support: 11.83 median (points) versus the listed line Over 11.5. Model note: Model median 11.83 vs Over 11.5; estimated hit rate 51.9%. Context: matchup LAL @ HOU; team LAL. Risk note: this is still a probabilistic edge, not a lock; it stays on the card because it cleared the 50%+ win-probability rule, stale-line guardrails, and ranked by EV.",
       "result": null
     },
     {
@@ -51,7 +51,7 @@
       "book": "Sportsbook Rhode Island",
       "book_is_ri": true,
       "market_type": "player_prop",
-      "reasoning": "Model median 1.00 vs Over 0.5; estimated hit rate 75.0%.",
+      "reasoning": "Why this made the card: Alejandro Osuna total bases Over 0.5 is a player prop priced at Sportsbook Rhode Island +112. That price is break-even at 47.2%, while the model has it at 75.0% — a +27.8 percentage-point cushion and +59.0% expected value. Projection support: 1.00 median (total bases) versus the listed line Over 0.5. Model note: Model median 1.00 vs Over 0.5; estimated hit rate 75.0%. Context: matchup TEX @ DET; team TEX. Risk note: this is still a probabilistic edge, not a lock; it stays on the card because it cleared the 50%+ win-probability rule, stale-line guardrails, and ranked by EV.",
       "result": null
     },
     {
@@ -72,7 +72,7 @@
       "book": "Sportsbook Rhode Island",
       "book_is_ri": true,
       "market_type": "player_prop",
-      "reasoning": "Model median 1.00 vs Over 0.5; estimated hit rate 75.0%.",
+      "reasoning": "Why this made the card: Alejandro Osuna hits Over 0.5 is a player prop priced at Sportsbook Rhode Island +112. That price is break-even at 47.2%, while the model has it at 75.0% — a +27.8 percentage-point cushion and +59.0% expected value. Projection support: 1.00 median (hits) versus the listed line Over 0.5. Model note: Model median 1.00 vs Over 0.5; estimated hit rate 75.0%. Context: matchup TEX @ DET; team TEX. Risk note: this is still a probabilistic edge, not a lock; it stays on the card because it cleared the 50%+ win-probability rule, stale-line guardrails, and ranked by EV.",
       "result": null
     },
     {
@@ -93,7 +93,7 @@
       "book": "BetMGM",
       "book_is_ri": false,
       "market_type": "player_prop",
-      "reasoning": "Model median 2.00 vs Over 1.5; estimated hit rate 75.0%.",
+      "reasoning": "Why this made the card: Bo Bichette total bases Over 1.5 is a player prop priced at BetMGM +110. That price is break-even at 47.6%, while the model has it at 75.0% — a +27.4 percentage-point cushion and +57.5% expected value. Projection support: 2.00 median (total bases) versus the listed line Over 1.5. Model note: Model median 2.00 vs Over 1.5; estimated hit rate 75.0%. Context: matchup NYM @ LAA; team NYM. Risk note: this is still a probabilistic edge, not a lock; it stays on the card because it cleared the 50%+ win-probability rule, stale-line guardrails, and ranked by EV.",
       "result": null
     },
     {
@@ -114,7 +114,7 @@
       "book": "BetMGM",
       "book_is_ri": false,
       "market_type": "player_prop",
-      "reasoning": "Model median 1.00 vs Over 0.5; estimated hit rate 75.0%.",
+      "reasoning": "Why this made the card: Jonah Heim runsBatter Over 0.5 is a player prop priced at BetMGM +110. That price is break-even at 47.6%, while the model has it at 75.0% — a +27.4 percentage-point cushion and +57.5% expected value. Projection support: 1.00 median (runsBatter) versus the listed line Over 0.5. Model note: Model median 1.00 vs Over 0.5; estimated hit rate 75.0%. Context: matchup ATL @ COL; team ATL. Risk note: this is still a probabilistic edge, not a lock; it stays on the card because it cleared the 50%+ win-probability rule, stale-line guardrails, and ranked by EV.",
       "result": null
     },
     {
@@ -135,7 +135,7 @@
       "book": "Fanatics",
       "book_is_ri": false,
       "market_type": "player_prop",
-      "reasoning": "Model median 1.00 vs Over 0.5; estimated hit rate 75.0%.",
+      "reasoning": "Why this made the card: Taylor Walls total bases Over 0.5 is a player prop priced at Fanatics +110. That price is break-even at 47.6%, while the model has it at 75.0% — a +27.4 percentage-point cushion and +57.5% expected value. Projection support: 1.00 median (total bases) versus the listed line Over 0.5. Model note: Model median 1.00 vs Over 0.5; estimated hit rate 75.0%. Context: matchup SF @ TB; team TB. Risk note: this is still a probabilistic edge, not a lock; it stays on the card because it cleared the 50%+ win-probability rule, stale-line guardrails, and ranked by EV.",
       "result": null
     }
   ]
