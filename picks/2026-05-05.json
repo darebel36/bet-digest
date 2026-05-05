@@ -8,8 +8,8 @@
     "player_prop_markets_found": 3957,
     "player_prop_candidates": 72076,
     "player_prop_qualifiers": 2917,
-    "player_prop_picks": 2,
-    "notes": "Reconsidered Dennis Schroder and Tobias Harris assists using direct odds/projections plus recent game logs. Both were removed due to recent hit-rate/role mismatch despite high model medians. Replacement scan favored legs with current market support plus historical sanity checks."
+    "player_prop_picks": 1,
+    "notes": "Reconsidered Schroder, Harris, and Kadri using recent game logs and role/minutes context. Schroder/Harris were removed for assists role mismatch; Kadri was removed because recent points hit rates and 13-15 minute TOI make the Over 0.5 fair/negative at the current price. Replaced Kadri with a stable game-market leg rather than forcing another low-threshold prop over."
   },
   "picks": [
     {
@@ -34,29 +34,8 @@
       "result": null
     },
     {
-      "id": "2026-05-05-kadri-points-over-0.5",
-      "rank": 2,
-      "sport": "NHL",
-      "matchup": "MIN @ COL",
-      "game_time": "2026-05-05T20:00:00-04:00",
-      "player": "Nazem Kadri",
-      "team_abbr": "COL",
-      "team_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/col.png",
-      "market": "Points",
-      "line": "Over 0.5",
-      "odds": "-116",
-      "projection": "1.00 points median; p25 0.00 / p75 1.00",
-      "win_prob": 0.75,
-      "ev_pct": 0.397,
-      "book": "Underdog",
-      "book_is_ri": false,
-      "market_type": "player_prop",
-      "reasoning": "Why this made the card: Nazem Kadri Points Over 0.5 is a player prop priced at Underdog -116. That price is break-even at 53.7%, while the model has it at 75.0% \u2014 a +21.3 percentage-point cushion and +39.7% expected value. Projection support: 1.00 points median; p25 0.00 / p75 1.00 versus the listed line Over 0.5. Distribution check: distribution p25 0 / p50 1 / p75 1. Model note: Cross-sport replacement to avoid stacking two questionable NBA assist overs. Nazem Kadri Over 0.5 points is a consensus/main 0.5 line posted broadly across the market; Underdog showed the best practical price at -116, while many books were clustered around -120 to -139 and Sportsbook Rhode Island had -124. The -116 price breaks even at 53.7%, while the model estimate is 75.0%, a +21.3 percentage-point cushion and about +39.7% EV. Projection support: median 1 point with p25 0 and p75 1, which fits an anytime-point style prop rather than a high-volume counting stat. Historical sanity check: Kadri recorded at least one point in 12 of the last 15 and 4 of the last 5 in the available logs, averaging 1.13 points. Risk note: NHL point props are high-variance and can lose on a strong individual game if linemates do not convert; use only if the Over 0.5 is still available near -116 to -125. Context: matchup MIN @ COL; team COL. Risk note: this is still a probabilistic edge, not a lock; it stays on the card because it cleared the 50%+ win-probability rule, stale-line guardrails, and ranked by EV.",
-      "result": null
-    },
-    {
       "id": "2026-05-05-dodgers-moneyline-dodgers-ml",
-      "rank": 3,
+      "rank": 2,
       "sport": "MLB",
       "matchup": "LAD @ HOU",
       "game_time": "2026-05-05T20:10:00-04:00",
@@ -74,14 +53,35 @@
       "market_type": "game_market",
       "reasoning": "Why this made the card: Los Angeles Dodgers Moneyline Dodgers ML is a game market priced at Novig -205. That price is break-even at 67.2%, while the model has it at 68.8% \u2014 a +1.6 percentage-point cushion and +2.4% expected value. Projection support: Dodgers 5.24 - Astros 3.24; home win 31.2%, away win 68.8% versus the listed line Dodgers ML. Distribution check: distribution p25 3.23 / p50 5.24 / p75 7.23. Model note: Kept from the original card because it still clears the probability-first screen without the role/minutes concerns that hit the assist props. Novig showed Dodgers ML around -205, which breaks even at 67.2%; the model has LAD at 68.8%, a +1.6 percentage-point cushion and roughly +2.3% EV. Projection support is Dodgers 5.24 runs versus Astros 3.24, with Houston home win probability only about 31.2%. Risk note: MLB moneylines carry normal pitcher/bullpen/variance risk and the edge is thin compared with the prop legs, so avoid worse than about -210 if possible. Context: matchup LAD @ HOU; team LAD. Risk note: this is still a probabilistic edge, not a lock; it stays on the card because it cleared the 50%+ win-probability rule, stale-line guardrails, and ranked by EV.",
       "result": null
+    },
+    {
+      "id": "2026-05-05-avalanche-moneyline-avalanche-ml",
+      "rank": 3,
+      "sport": "NHL",
+      "matchup": "MIN @ COL",
+      "game_time": "2026-05-05T20:00:00-04:00",
+      "player": "Colorado Avalanche",
+      "team_abbr": "COL",
+      "team_logo": "https://a.espncdn.com/i/teamlogos/nhl/500/col.png",
+      "market": "Moneyline",
+      "line": "Avalanche ML",
+      "odds": "-186",
+      "projection": "Avalanche 3.60 - Wild 2.75; home win 62.6%",
+      "win_prob": 0.626,
+      "ev_pct": -0.037,
+      "book": "Polymarket",
+      "book_is_ri": false,
+      "market_type": "game_market",
+      "reasoning": "Why this made the card: Colorado Avalanche Moneyline replaces Nazem Kadri Over 0.5 points after the recent points/TOI review. Kadri's 9/15 full-sample hit rate looks only barely playable, but last-10 is 4/10, last-8 is 3/8, and recent 13-15 minute TOI creates a structural role concern at a -124-ish price. The Kadri over looked fair to slightly negative once adjusted for current role, so this avoids forcing another low-threshold prop over where books may be pricing current usage better than the projection model. Polymarket showed COL ML -186, which has a 65.0% break-even probability; the game model has Colorado at 62.6%, so the standalone expected value is about -3.7%. Projection support: Avalanche 3.60 median goals versus Minnesota 2.75, home win probability 62.6%, total median 6.34, and spread median COL by 0.85. Risk note: this is a probability-first stabilizer rather than a clean +EV standalone leg; NHL moneyline variance is real and the price should not be chased much worse than -186/-190.",
+      "result": null
     }
   ],
   "ticket_profile": {
-    "combined_decimal_odds": 4.502,
-    "approx_american_odds": "+350",
-    "combined_model_hit_probability": 0.5155,
-    "break_even_probability": 0.2221,
-    "parlay_ev": 1.3207,
-    "assumption": "Leg probabilities multiplied assuming independence; model probabilities are tempered by recent-form sanity checks, and all lines should be verified before betting."
+    "combined_decimal_odds": 3.718,
+    "approx_american_odds": "+272",
+    "combined_model_hit_probability": 0.4303,
+    "break_even_probability": 0.269,
+    "parlay_ev": 0.5995,
+    "assumption": "Leg probabilities multiplied assuming independence; player-prop probabilities are tempered by historical logs and role/minutes checks, and all lines should be verified before betting."
   }
 }
